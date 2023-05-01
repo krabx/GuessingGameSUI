@@ -11,6 +11,7 @@
 		6EDC36BD29FFE5A50008BE7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC36BC29FFE5A50008BE7D /* ContentView.swift */; };
 		6EDC36BF29FFE5A70008BE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDC36BE29FFE5A70008BE7D /* Assets.xcassets */; };
 		6EDC36C229FFE5A70008BE7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDC36C129FFE5A70008BE7D /* Preview Assets.xcassets */; };
+		6EDC36C929FFE6250008BE7D /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC36C829FFE6250008BE7D /* UISliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6EDC36BC29FFE5A50008BE7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EDC36BE29FFE5A70008BE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EDC36C129FFE5A70008BE7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EDC36C829FFE6250008BE7D /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6EDC36BA29FFE5A50008BE7D /* GuessingGameSUIApp.swift */,
 				6EDC36BC29FFE5A50008BE7D /* ContentView.swift */,
+				6EDC36C829FFE6250008BE7D /* UISliderRepresentation.swift */,
 				6EDC36BE29FFE5A70008BE7D /* Assets.xcassets */,
 				6EDC36C029FFE5A70008BE7D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDC36C929FFE6250008BE7D /* UISliderRepresentation.swift in Sources */,
 				6EDC36BD29FFE5A50008BE7D /* ContentView.swift in Sources */,
 				6EDC36BB29FFE5A50008BE7D /* GuessingGameSUIApp.swift in Sources */,
 			);
