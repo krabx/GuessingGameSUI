@@ -16,23 +16,27 @@ struct ContentView: View {
         VStack(spacing: 20) {
             HStack {
                 Text("Подвиньте слайдер, как можно ближе к: ")
+                
                 Text(targetValue.formatted())
-                Text(computeScore().formatted())
             }
 
             HStack {
                 Text("0")
+                
                 UISliderRepresentation(
                     targetValue: $targetValue,
                     currentValue: $currentValue,
                     result: computeScore()
                 )
+                
                 Text("100")
             }
+            
             Button("Проверь меня!", action: { isAlertPresented.toggle()})
                 .alert("Ваш результат", isPresented: $isAlertPresented, actions: { }) {
                     Text("\(computeScore()) очков")
                 }
+            
             Button("Начать заново", action: setNewTargetValue)
         }
         .padding()
@@ -46,7 +50,6 @@ struct ContentView: View {
     private func setNewTargetValue() {
         targetValue = Int.random(in: 0...100)
     }
-
 }
 
 struct ContentView_Previews: PreviewProvider {
