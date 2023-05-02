@@ -45,7 +45,7 @@ struct ContentView: View {
                         isPresented: $isAlertPresented,
                         actions: { }
                     ) {
-                        Text("\(computeScore()) очков")
+                        Text(computeScore().formatted())
                     }
                 
                 Button("Начать заново", action: setNewValues)
