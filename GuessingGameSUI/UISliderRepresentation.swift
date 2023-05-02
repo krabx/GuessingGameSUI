@@ -30,7 +30,6 @@ struct UISliderRepresentation: UIViewRepresentable {
     
     func updateUIView(_ uiView: UISlider, context: Context) {
         uiView.value = Float(currentValue)
-        
         uiView.thumbTintColor = UIColor(
             red: 255 / 255,
             green: 0,
